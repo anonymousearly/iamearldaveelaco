@@ -1,5 +1,6 @@
 <template>
-    <v-tabs v-model="tab" align-tabs="center">    
+    <v-container class="pa-8">
+    <v-tabs v-model="tab" align-tabs="center" >    
         <v-tab value="home">
             <v-icon>mdi-home</v-icon>
             Home
@@ -16,6 +17,7 @@
             
         </v-btn>
     </v-tabs>
+</v-container>
     
 </template>
 

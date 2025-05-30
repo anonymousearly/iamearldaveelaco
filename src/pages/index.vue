@@ -1,6 +1,7 @@
 <template>
   <Header />
-  <MainTimeline />
+
+  <LandingPage />
 </template>
 
 <script setup>
